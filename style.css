@@ -193,7 +193,7 @@ text-transform: uppercase;
 }
 
 .works__item{
-    width: 32%;
+    width: 33.333%;
     height: 350px;
     position: relative;
     overflow: hidden;
@@ -267,7 +267,7 @@ margin: 100px 100 70px;
 
 .team__inner{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     margin: 0 15px;
     margin-bottom: -30px;
 }
@@ -669,11 +669,16 @@ z-index: 1;
     height: 300px;
 }
 
-}
+
 /*Team*/
 .team__item{
     width: 50%;
     text-align: center;
+}
+
+.team__inner{
+    display: flex;
+    flex-wrap: wrap;
 }
 .team__photo{
     margin-left: auto;
@@ -725,4 +730,5 @@ z-index: 1;
 
 .footer__block:last-child{
     margin-bottom: 0;
+}
 }
